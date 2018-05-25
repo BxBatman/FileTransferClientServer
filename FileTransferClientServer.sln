@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csproj", "{396A3FF4-97AF-4B78-9269-0B07A839602A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSerialization", "FileSerialization\FileSerialization.csproj", "{17A6C0CA-8BC2-4F52-88A6-37753C8DF71C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{396A3FF4-97AF-4B78-9269-0B07A839602A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{396A3FF4-97AF-4B78-9269-0B07A839602A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{396A3FF4-97AF-4B78-9269-0B07A839602A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17A6C0CA-8BC2-4F52-88A6-37753C8DF71C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17A6C0CA-8BC2-4F52-88A6-37753C8DF71C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17A6C0CA-8BC2-4F52-88A6-37753C8DF71C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17A6C0CA-8BC2-4F52-88A6-37753C8DF71C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

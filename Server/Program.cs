@@ -12,7 +12,18 @@ namespace Server
        
         static void Main(string[] args)
         {
-            Server server = new Server(1200);
+            try
+            {
+                Server server = new Server();
+                server.listen();
+            }catch(SocketException e)
+            {
+                Console.WriteLine("SocketException!",e);
+
+            }
+
+            Console.WriteLine("Hit enter to continure");
+            Console.Read();
 
         }
 
