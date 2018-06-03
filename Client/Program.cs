@@ -29,7 +29,7 @@ namespace Client
             }
 
             client.sendFile(fileSender);
-            Console.WriteLine("end");
+            Console.WriteLine("File has been sent");
             Console.ReadKey();
         }
     }
